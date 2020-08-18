@@ -74,7 +74,7 @@ var basic = auth.basic({
 	realm: "Simon Area.",
 	file: __dirname + "/../data/users.htpasswd" // gevorg:gpass, Sarah:testpass ...
 });
-
+Change
 // Create your proxy server.
 httpProxy.createServer(basic, { target: 'http://localhost:1338' }).listen(1337);
 
